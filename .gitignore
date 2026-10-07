@@ -1,0 +1,14 @@
+target/
+.idea/
+.vscode/
+*.iml
+
+# Local device configuration
+apps/CardManager/config.properties
+
+# Test reports
+apps/CardManager/reports/
+
+# OS files
+.DS_Store
+Thumbs.db

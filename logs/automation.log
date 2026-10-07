@@ -1,0 +1,861 @@
+2026-10-07 11:26:28.160 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:26:28.367 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:26:28.379 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:26:28.386 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:26:28.406 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:26:28.646 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:26:28.650 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:26:28.682 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:26:28.730 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:26:28.730 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:26:28.730 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:26:28.733 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:26:28.734 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:26:37.906 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=37a88d1a-5463-4b22-b1d7-654cdef39ca4
+2026-10-07 11:26:37.913 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:26:37.916 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:26:37.930 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:27:02.576 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:27:02.577 [main] ERROR utils.LoggerUtil - Failure Reason: Unable to identify startup screen. Expected App Open Ad, Get Started, or Language screen.
+2026-10-07 11:27:03.677 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_112702.png
+2026-10-07 11:27:04.392 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:27:04.394 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:27:04.395 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:27:04.985 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:27:04.988 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:27:04.990 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:27:05.257 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:33:02.366 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:33:02.544 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:33:02.548 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:33:02.549 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:33:02.552 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:33:02.711 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:33:02.715 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:33:02.749 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:33:02.783 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:33:02.783 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:33:02.784 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:33:02.787 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:33:02.788 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:33:09.364 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=6aad21c3-69de-442e-b89f-b8a9c5eb117b
+2026-10-07 11:33:09.366 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:33:09.368 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:33:09.375 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:33:50.082 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:33:50.083 [main] ERROR utils.LoggerUtil - Failure Reason: Onboarding screen did not appear after language selection. expected [true] but found [false]
+2026-10-07 11:33:50.529 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_113350.png
+2026-10-07 11:33:50.926 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:33:50.930 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:33:50.930 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:33:51.500 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:33:51.503 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:33:51.506 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:33:51.947 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:38:43.900 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:38:44.084 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:38:44.090 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:38:44.090 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:38:44.095 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:38:44.255 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:38:44.260 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:38:44.294 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:38:44.333 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:38:44.333 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:38:44.334 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:38:44.336 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:38:44.337 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:38:50.667 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=c9d49237-5933-4022-a8a0-1cf7f1b1c97f
+2026-10-07 11:38:50.670 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:38:50.673 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:38:50.680 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:39:32.177 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:39:32.177 [main] ERROR utils.LoggerUtil - Failure Reason: Onboarding screen did not appear after language selection. expected [true] but found [false]
+2026-10-07 11:39:32.678 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_113932.png
+2026-10-07 11:39:33.136 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:39:33.139 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:39:33.139 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:39:33.681 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:39:33.684 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:39:33.686 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:39:33.935 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:43:30.404 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:43:30.586 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:43:30.590 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:43:30.590 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:43:30.595 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:43:30.754 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:43:30.758 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:43:30.790 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:43:30.824 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:43:30.824 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:43:30.824 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:43:30.826 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:43:30.828 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:43:37.169 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=d49eab65-ab07-4fe7-870f-54468443ac9b
+2026-10-07 11:43:37.170 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:43:37.174 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:43:37.181 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:44:31.333 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:44:31.514 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:44:31.518 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:44:31.519 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:44:31.522 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:44:31.677 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:44:31.681 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:44:31.713 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:44:31.746 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:44:31.746 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:44:31.747 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:44:31.751 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:44:31.751 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:44:38.165 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=30ee5f5e-30df-42c0-b43b-f5e3bb6edda4
+2026-10-07 11:44:38.167 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:44:38.170 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:44:38.178 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:45:36.196 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:45:36.199 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x000002269030edc8@4996c99 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 30ee5f5e-30df-42c0-b43b-f5e3bb6edda4
+2026-10-07 11:45:36.775 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_114536.png
+2026-10-07 11:45:37.266 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:45:37.270 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:45:37.270 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:45:37.806 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:45:37.809 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:45:37.812 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:45:38.065 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:48:33.661 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:48:33.852 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:48:33.855 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:48:33.856 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:48:33.860 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:48:34.031 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:48:34.036 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:48:34.071 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:48:34.108 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:48:34.108 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:48:34.108 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:48:34.111 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:48:34.111 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:48:40.279 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64
+2026-10-07 11:48:40.282 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:48:40.284 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:48:40.294 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:49:10.619 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:49:10.620 [main] ERROR utils.LoggerUtil - Failure Reason: Onboarding screen did not appear after language selection. expected [true] but found [false]
+2026-10-07 11:49:10.643 [main] ERROR utils.ScreenshotUtil - Unexpected error capturing screenshot: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64, screenshot {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64
+org.openqa.selenium.WebDriverException: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64, screenshot {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.27.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.27.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.27.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.27.0.jar:?]
+	at io.appium.java_client.AppiumDriver.getScreenshotAs(AppiumDriver.java:244) ~[java-client-9.4.0.jar:?]
+	at utils.ScreenshotUtil.captureScreenshotFile(ScreenshotUtil.java:61) ~[classes/:?]
+	at utils.ScreenshotUtil.captureScreenshotFile(ScreenshotUtil.java:37) ~[classes/:?]
+	at listeners.TestListener.captureAndAttachScreenshot(TestListener.java:125) ~[classes/:?]
+	at listeners.TestListener.onTestFailure(TestListener.java:92) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:774) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.2.jar:3.5.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.2.jar:3.5.2]
+2026-10-07 11:49:10.667 [main] ERROR utils.ScreenshotUtil - Failed to capture Base64 screenshot: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64, screenshot {}]
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c0f4a3f8-bea0-4e13-ad58-440f9eb9ef64
+2026-10-07 11:49:10.673 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:49:10.677 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:49:10.678 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:49:11.266 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:49:11.269 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:49:11.273 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:49:11.528 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:49:48.303 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:49:48.495 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:49:48.499 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:49:48.500 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:49:48.503 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:49:48.665 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:49:48.669 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:49:48.704 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:49:48.741 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:49:48.742 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:49:48.742 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:49:48.745 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:49:48.745 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:49:54.763 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=308c0fb9-bf97-415f-beb4-29edef897fe7
+2026-10-07 11:49:54.765 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:49:54.768 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:49:54.777 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:51:03.254 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:51:03.256 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x0000020551316dc8@d613308 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 308c0fb9-bf97-415f-beb4-29edef897fe7
+2026-10-07 11:51:03.889 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_115103.png
+2026-10-07 11:51:04.319 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:51:04.323 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:51:04.323 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:51:04.832 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:51:04.834 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:51:04.836 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:51:05.082 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 11:54:24.385 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 11:54:24.570 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 11:54:24.574 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 11:54:24.575 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 11:54:24.578 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 11:54:24.736 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 11:54:24.740 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 11:54:24.770 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 11:54:24.801 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 11:54:24.802 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 11:54:24.802 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 11:54:24.805 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 11:54:24.805 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 11:54:32.665 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=2c5213b5-c5e3-41f6-a4b7-47fd75b1fc66
+2026-10-07 11:54:32.667 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 11:54:32.669 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 11:54:32.677 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 11:55:30.755 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 11:55:30.757 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x0000021f81316dc8@2a4f5433 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2c5213b5-c5e3-41f6-a4b7-47fd75b1fc66
+2026-10-07 11:55:31.552 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_115530.png
+2026-10-07 11:55:31.982 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 11:55:31.987 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 11:55:31.987 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 11:55:32.556 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 11:55:32.558 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 11:55:32.560 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 11:55:32.805 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:00:06.384 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:00:06.583 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:00:06.587 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:00:06.587 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:00:06.590 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:00:06.745 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:00:06.749 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:00:06.780 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:00:06.815 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:00:06.815 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:00:06.816 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:00:06.818 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:00:06.819 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:00:13.024 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=c4fa1668-5804-4d4a-90c3-e28c5166207e
+2026-10-07 12:00:13.026 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:00:13.030 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:00:13.037 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:01:07.429 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:01:07.430 [main] ERROR utils.LoggerUtil - Failure Reason: Lifetime package not found on Premium screen. expected [true] but found [false]
+2026-10-07 12:01:07.926 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_120107.png
+2026-10-07 12:01:08.383 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:01:08.387 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:01:08.387 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:01:08.910 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:01:08.912 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:01:08.915 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:01:09.170 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:06:01.964 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:06:02.167 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:06:02.170 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:06:02.170 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:06:02.176 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:06:02.337 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:06:02.341 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:06:02.372 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:06:02.405 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:06:02.405 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:06:02.405 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:06:02.410 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:06:02.411 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:06:09.866 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=650f8a12-cf75-4e81-911b-925da0f3c271
+2026-10-07 12:06:09.868 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:06:09.870 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:06:09.876 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:06:40.177 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:06:40.178 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x000001fc92312250@4eed2acf (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 650f8a12-cf75-4e81-911b-925da0f3c271
+2026-10-07 12:06:40.795 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_120640.png
+2026-10-07 12:06:41.285 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:06:41.289 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:06:41.289 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:06:41.927 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:06:41.932 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:06:41.936 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:06:42.207 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:07:00.933 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:07:01.124 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:07:01.137 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:07:01.137 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:07:01.141 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:07:01.314 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:07:01.318 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:07:01.355 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:07:01.389 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:07:01.390 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:07:01.390 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:07:01.393 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:07:01.394 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:07:08.176 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=238dabd5-77b5-430c-bb32-3e458fd92f63
+2026-10-07 12:07:08.178 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:07:08.182 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:07:08.189 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:07:38.220 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:07:38.222 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x0000020e303126b0@3964d79 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 238dabd5-77b5-430c-bb32-3e458fd92f63
+2026-10-07 12:07:39.046 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_120738.png
+2026-10-07 12:07:39.619 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:07:39.623 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:07:39.624 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:07:40.143 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:07:40.146 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:07:40.148 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:07:40.402 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:08:10.396 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:08:10.584 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:08:10.587 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:08:10.588 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:08:10.592 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:08:10.754 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:08:10.758 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:08:10.790 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:08:10.826 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:08:10.827 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:08:10.827 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:08:10.830 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:08:10.832 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:08:18.958 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=fd0a9e20-4d26-4898-949d-dd18239b1012
+2026-10-07 12:08:18.960 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:08:18.962 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:08:18.970 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:08:50.143 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:08:50.145 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x0000027d813126b0@5ac6c4f2 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: fd0a9e20-4d26-4898-949d-dd18239b1012
+2026-10-07 12:08:50.948 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_120850.png
+2026-10-07 12:08:51.636 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:08:51.640 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:08:51.640 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:08:52.163 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:08:52.166 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:08:52.168 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:08:52.414 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:10:23.921 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:10:24.104 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:10:24.109 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:10:24.109 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:10:24.114 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:10:24.282 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:10:24.286 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:10:24.320 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:10:24.353 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:10:24.353 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:10:24.353 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:10:24.356 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:10:24.357 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:10:30.584 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=ac310c01-1051-4a51-8d68-dedf3406c78d
+2026-10-07 12:10:30.586 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:10:30.589 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:10:30.596 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:11:00.999 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:11:01.000 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x000001742f312250@107f4980 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ac310c01-1051-4a51-8d68-dedf3406c78d
+2026-10-07 12:11:01.546 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_121101.png
+2026-10-07 12:11:02.067 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:11:02.072 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:11:02.073 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:11:02.602 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:11:02.607 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:11:02.610 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:11:02.864 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:11:59.174 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:11:59.370 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:11:59.374 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:11:59.375 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:11:59.378 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:11:59.532 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:11:59.536 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:11:59.570 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:11:59.601 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:11:59.602 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:11:59.602 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:11:59.605 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:11:59.606 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:12:05.722 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=0256acf9-e4a6-4168-b784-5e946c3607a1
+2026-10-07 12:12:05.724 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:12:05.729 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:12:05.735 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:12:36.393 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:12:36.395 [main] ERROR utils.LoggerUtil - Failure Reason: Expected condition failed: waiting for tests.CardManagerSmokeTest$$Lambda$659/0x000002adcd3126b0@107f4980 (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {adbExecTimeout: 60000, appActivity: com.amex.nfc_card_payment.u..., appPackage: com.codelinedynamics.digita..., autoGrantPermissions: true, automationName: UiAutomator2, deviceName: LG V40 ThinQ, fullReset: false, ignoreHiddenApiPolicyError: true, newCommandTimeout: 300, noReset: true, platformName: ANDROID, platformVersion: 10.0, udid: 0782437243000552, uiautomator2ServerInstallTimeout: 120000}, appium:deviceApiLevel: 30, appium:deviceManufacturer: itel, appium:deviceModel: itel P682LP, appium:deviceName: 0782437243000552, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 0782437243000552, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, appium:viewportRect: {height: 1568, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 0256acf9-e4a6-4168-b784-5e946c3607a1
+2026-10-07 12:12:37.107 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_121236.png
+2026-10-07 12:12:37.768 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:12:37.773 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:12:37.773 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:12:38.249 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:12:38.251 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:12:38.253 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:12:38.500 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:19:09.702 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:19:09.892 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:19:09.896 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:19:09.896 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:19:09.900 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:19:10.069 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:19:10.073 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:19:10.110 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:19:10.152 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:19:10.153 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:19:10.153 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:19:10.157 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:19:10.157 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:19:18.128 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=7d78ac83-75ab-489f-950d-33fc1253e9df
+2026-10-07 12:19:18.130 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:19:18.133 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:19:18.140 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:20:40.120 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:20:40.120 [main] ERROR utils.LoggerUtil - Failure Reason: LifeTime package not found on Premium screen. expected [true] but found [false]
+2026-10-07 12:20:40.732 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_122040.png
+2026-10-07 12:20:41.159 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:20:41.163 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:20:41.163 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:20:41.641 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:20:41.644 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:20:41.646 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:20:41.894 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:26:50.349 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:26:50.546 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:26:50.550 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:26:50.551 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:26:50.554 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:26:50.718 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:26:50.722 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:26:50.757 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:26:50.793 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:26:50.794 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:26:50.794 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:26:50.797 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:26:50.798 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:26:58.615 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=041230b0-2bce-440d-b98a-971c3c33d1f8
+2026-10-07 12:26:58.617 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:26:58.622 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:26:58.628 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:28:57.443 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:28:57.443 [main] ERROR utils.LoggerUtil - Failure Reason: Premium Cross button was not found. expected [true] but found [false]
+2026-10-07 12:28:58.092 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_122857.png
+2026-10-07 12:28:58.554 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:28:58.558 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:28:58.558 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:28:59.167 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:28:59.169 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:28:59.171 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:28:59.420 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:35:19.668 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:35:19.861 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:35:19.865 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:35:19.866 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:35:19.869 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:35:20.031 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:35:20.035 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:35:20.071 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:35:20.109 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:35:20.109 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:35:20.110 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:35:20.112 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:35:20.114 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:35:28.107 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=6bf3f399-c2bd-4265-a1cd-9ab0373844db
+2026-10-07 12:35:28.110 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:35:28.112 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:35:28.119 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:36:52.546 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:36:52.546 [main] ERROR utils.LoggerUtil - Failure Reason: LifeTime package was not found after scrolling Premium screen. expected [true] but found [false]
+2026-10-07 12:36:53.162 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_123652.png
+2026-10-07 12:36:53.567 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:36:53.569 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:36:53.569 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:36:54.029 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:36:54.032 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:36:54.035 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:36:54.297 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:44:47.953 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:44:48.139 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:44:48.143 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:44:48.143 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:44:48.147 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:44:48.307 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:44:48.313 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:44:48.350 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:44:48.386 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:44:48.386 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:44:48.386 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:44:48.389 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:44:48.389 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:44:55.121 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=a67eed22-4681-4169-b1cb-c0a0c7895209
+2026-10-07 12:44:55.123 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:44:55.126 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:44:55.133 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:47:03.977 [main] ERROR utils.LoggerUtil - Test FAILED: launchFromSplashToDashboard
+2026-10-07 12:47:03.977 [main] ERROR utils.LoggerUtil - Failure Reason: Skip option not found on 30% OFF screen. expected [true] but found [false]
+2026-10-07 12:47:04.588 [main] INFO  utils.ScreenshotUtil - Screenshot captured successfully: D:\Android-Automation\apps\CardManager\screenshots\launchFromSplashToDashboard_FAILURE_20261007_124703.png
+2026-10-07 12:47:05.018 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: FAILED
+================================================================================
+
+2026-10-07 12:47:05.024 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:47:05.024 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:47:05.557 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:47:05.561 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:47:05.564 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:47:05.808 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:55:11.933 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:55:12.116 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:55:12.119 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:55:12.120 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:55:12.123 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:55:12.296 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:55:12.301 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:55:12.338 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:55:12.374 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:55:12.374 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:55:12.374 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:55:12.377 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:55:12.378 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:55:19.248 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=d79dcaf2-de31-4a86-bb1f-ee237adac3aa
+2026-10-07 12:55:19.250 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:55:19.253 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:55:19.261 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 12:56:57.154 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: PASSED
+================================================================================
+
+2026-10-07 12:56:57.166 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 12:56:57.166 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 12:56:57.833 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 12:56:57.837 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 12:56:57.840 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 12:56:58.078 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 12:58:12.616 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 12:58:12.802 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 12:58:12.806 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 12:58:12.806 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 12:58:12.810 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 12:58:12.967 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 12:58:12.971 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 12:58:13.004 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 12:58:13.038 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 12:58:13.038 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 12:58:13.038 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 12:58:13.042 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 12:58:13.043 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 12:58:20.433 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=10bd1aaf-58bb-46e0-94d9-1e722e4bfc2b
+2026-10-07 12:58:20.435 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 12:58:20.437 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 12:58:20.443 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 13:00:02.857 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: PASSED
+================================================================================
+
+2026-10-07 13:00:02.860 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 13:00:02.861 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 13:00:03.530 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 13:00:03.532 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 13:00:03.533 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 13:00:03.769 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 13:07:11.830 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 13:07:12.023 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 13:07:12.027 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 13:07:12.028 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 13:07:12.031 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 13:07:12.194 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 13:07:12.198 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 13:07:12.237 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 13:07:12.279 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 13:07:12.279 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 13:07:12.279 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 13:07:12.282 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 13:07:12.283 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 13:07:20.243 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=b5a75d63-1956-46e5-9dcc-6075accb8246
+2026-10-07 13:07:20.249 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 13:07:20.252 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 13:07:20.259 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard
+2026-10-07 13:09:07.690 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  COMPLETED TEST: launchFromSplashToDashboard | STATUS: PASSED
+================================================================================
+
+2026-10-07 13:09:07.697 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-07 13:09:07.698 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-07 13:09:08.331 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-07 13:09:08.334 [main] INFO  utils.LoggerUtil - Finished Test Section: Card Manager Automation Tests
+2026-10-07 13:09:08.336 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION FINISH: Mobile Automation Test Suite ] ---
+2026-10-07 13:09:08.588 [main] INFO  reporting.ExtentManager - ExtentReports successfully flushed to disk.
+2026-10-07 13:09:41.898 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-10-07 13:09:42.093 [main] INFO  utils.LoggerUtil - 
+--- [ SUITE EXECUTION START: Mobile Automation Test Suite ] ---
+2026-10-07 13:09:42.097 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-07 13:09:42.097 [main] INFO  config.ConfigReader - Successfully loaded application properties from: apps\CardManager\config.properties
+2026-10-07 13:09:42.101 [main] INFO  reporting.ExtentManager - Configuring ExtentReports HTML report at: apps/CardManager/reports\TestExecutionReport.html
+2026-10-07 13:09:42.271 [main] INFO  reporting.ExtentManager - ExtentReports initialized successfully.
+2026-10-07 13:09:42.276 [main] INFO  utils.LoggerUtil - Starting Test Section: Card Manager Automation Tests
+2026-10-07 13:09:42.309 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-07 13:09:42.349 [main] INFO  driver.UiAutomator2OptionsFactory - Configured target device UDID: 0782437243000552
+2026-10-07 13:09:42.350 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app package: com.codelinedynamics.digital.card.mobile.wallet
+2026-10-07 13:09:42.350 [main] INFO  driver.UiAutomator2OptionsFactory - Configured app activity: com.amex.nfc_card_payment.ui.screens.MainActivity
+2026-10-07 13:09:42.353 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:appActivity: com.amex.nfc_card_payment.u..., appium:appPackage: com.codelinedynamics.digita..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: LG V40 ThinQ, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:platformVersion: 10.0, appium:udid: 0782437243000552, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-07 13:09:42.354 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-07 13:09:50.024 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=b55457cc-99f9-4592-8bf4-9d99c0babd03
+2026-10-07 13:09:50.027 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-07 13:09:50.029 [main] INFO  utils.LoggerUtil - 
+================================================================================
+  STARTING TEST: launchFromSplashToDashboard
+================================================================================
+2026-10-07 13:09:50.037 [main] INFO  reporting.ExtentTestManager - Started ExtentTest for: launchFromSplashToDashboard

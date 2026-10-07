@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Android Automation Suite" verbose="1">
+
+    <test name="Card Manager Tests">
+
+        <parameter name="deviceName" value="Android Device"/>
+
+        <parameter name="udid" value="0782437243000552"/>
+
+        <classes>
+            <class name="tests.CardManagerSmokeTest"/>
+        </classes>
+
+    </test>
+
+</suite>

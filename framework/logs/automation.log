@@ -1,0 +1,63 @@
+2026-10-05 13:19:37.132 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:19:37.183 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:19:37.186 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:19:37.199 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:19:44.210 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=99626e4c-b528-4d05-a6df-c5f11eab85bf
+2026-10-05 13:19:44.217 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:19:44.327 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:19:44.328 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:19:44.895 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:33:59.282 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:33:59.328 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:33:59.331 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:33:59.333 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:34:04.656 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=d27e8290-e49f-40a3-a71c-3bd69b6d15f9
+2026-10-05 13:34:04.659 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:34:44.050 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:34:44.050 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:34:44.687 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:46:48.348 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:46:48.388 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:46:48.391 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:46:48.394 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:46:52.521 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=e6ca5a11-949d-4ed8-820c-648b09ce2321
+2026-10-05 13:46:52.523 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:46:59.010 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:46:59.010 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:46:59.701 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:48:36.583 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:48:36.623 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:48:36.626 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:48:36.629 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:48:41.725 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=ed05716d-de9b-4085-ab64-9d3ceb028459
+2026-10-05 13:48:41.727 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:48:48.189 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:48:48.190 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:48:48.740 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:49:56.354 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:49:56.395 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:49:56.398 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:49:56.400 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:50:00.585 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=2638cda6-d676-4d8f-b590-3066669f66be
+2026-10-05 13:50:00.588 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:50:07.021 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:50:07.022 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:50:07.635 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:51:49.443 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:51:49.483 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:51:49.485 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: true, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:51:49.488 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:51:53.652 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=5e189574-98ea-4fd9-b9ab-f48449ba7281
+2026-10-05 13:51:53.654 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 13:52:54.959 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 13:52:54.964 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 13:52:55.504 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
+2026-10-05 13:55:18.512 [main] INFO  utils.LoggerUtil - Setting up AndroidDriver session...
+2026-10-05 13:55:18.559 [main] INFO  config.ConfigReader - Loaded default framework.properties from classpath.
+2026-10-05 13:55:18.563 [main] INFO  driver.UiAutomator2OptionsFactory - Constructed UiAutomator2Options: Capabilities {appium:adbExecTimeout: 60000, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Android Device, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:newCommandTimeout: 300, appium:noReset: false, appium:uiautomator2ServerInstallTimeout: 120000, platformName: ANDROID}
+2026-10-05 13:55:18.565 [main] INFO  driver.DriverFactory - Initiating AndroidDriver session to Appium server at: http://127.0.0.1:4723/
+2026-10-05 13:55:22.935 [main] INFO  driver.DriverFactory - AndroidDriver session successfully established: SessionId=5a30ab5a-76f0-4188-8ba7-217027453157
+2026-10-05 13:55:22.938 [main] INFO  driver.DriverManager - AndroidDriver initialized and assigned to thread: main
+2026-10-05 14:22:20.928 [main] INFO  utils.LoggerUtil - Tearing down AndroidDriver session...
+2026-10-05 14:22:20.929 [main] INFO  driver.DriverManager - Terminating AndroidDriver session for thread: main
+2026-10-05 14:22:21.429 [main] INFO  driver.DriverManager - Driver reference cleaned up for thread: main
